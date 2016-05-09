@@ -22,7 +22,7 @@ getBid(A, E, D, M, P, Q1, H, C, A1, O) :- /*get bid*/
     Mon = 13, /*Monday needs 'n' people*/
     
     Tue is E + M + Q1 + H + C + A1, /*these shifts work on Tuesdays*/
-    Tue = 14, /*Tuesday needs 'n' people*/
+    Tue = 14, /*Tuesday need 'n' people*/
     
     Wed is E + D + H + C, /*these shifts work on Wednesdays*/
     Wed = 14, /*Wednesdays need 'n' people*/
