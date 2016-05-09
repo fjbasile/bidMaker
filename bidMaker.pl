@@ -15,8 +15,8 @@ getBid(A, E, D, M, P, Q1, H, C, A1, O) :- /*get bid*/
     member(A1, [0,1,2,3,4,5,6]), /*up to six A1 shifts */
     member(O, [0,1,2,3,4,5,6]), /*up to six O shifts */
 
- 	Sun is A + P + Q1 + C + O, /*these shifts work on Sundays*/
-	Sun = 10, /*Sunday needs 'n' people*/
+    Sun is A + P + Q1 + C + O, /*these shifts work on Sundays*/
+    Sun = 10, /*Sunday needs 'n' people*/
 	
     Mon is M + P + Q1 + H + C + A1 + O, /*these shifts work on Mondays*/
     Mon = 13, /*Monday needs 'n' people*/
